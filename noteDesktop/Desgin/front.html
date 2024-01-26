@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Set the character set for the document -->
+    <meta charset="UTF-8" />
+    <!-- Define the viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Include Font Awesome CSS from a CDN with integrity check -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <!-- Link to the external stylesheet 'front.css' -->
+    <link rel="stylesheet" href="front.css" />
+    <!-- Set the title of the HTML document -->
+    <title>Notes App</title>
+  </head>
+  <body>
+    <!-- Button to add a new note with Font Awesome icon -->
+    <button class="add" id="add">
+      <i class="fas fa-plus"></i> Add note
+    </button>
+
+    <!-- Include the Marked.js library from a CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/1.2.2/marked.min.js"></script>
+    
+    <!-- Include the front.js script using the 'module' type -->
+    <script type="module" src="./front.js"></script>
+  </body>
+</html>
